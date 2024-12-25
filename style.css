@@ -56,3 +56,11 @@
   .footer-contacts {
     color: var(--footer-text);
   }
+
+a[href^="https"] {
+    color: red;
+  }
+  
+  .list + p {
+    font-size: 24px;
+  }
