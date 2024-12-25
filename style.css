@@ -1,0 +1,58 @@
+:root {
+    --primary-brand: #2196F3;
+    --dark: #2F303A;
+    --text: #757575;
+    --black: #000000;
+    --white: #FFFFFF;
+    
+    --light-bg: #F5F4FA;
+    --accent: #2196F3;
+    --header-border: #ECECEC;
+    --portfolio-border: #EEEEEE;
+
+    --primary-text: #212121;
+    --secondary-text: #757575;
+    --hero-text: #FFFFFF;
+    --footer-text: rgba(255, 255, 255, 0.6);
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-text);
+    background-color: var(--white);
+  }
+  
+  .header {
+    border-bottom: 1px solid var(--header-border);
+    background-color: var(--white);
+  }
+
+  .hero {
+    background-color: var(--dark);
+    color: var(--hero-text);
+  }
+  
+  .hero-button {
+    background-color: var(--accent);
+    color: var(--white);
+  }
+  
+  .services {
+    background-color: var(--white);
+  }
+  
+  .team {
+    background-color: var(--light-bg);
+  }
+  
+  .team-card {
+    background-color: var(--white);
+  }
+  .footer {
+    background-color: var(--dark);
+    color: var(--white);
+  }
+  
+  .footer-contacts {
+    color: var(--footer-text);
+  }
